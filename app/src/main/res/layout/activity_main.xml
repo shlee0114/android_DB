@@ -3,14 +3,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.tlqkf.android_studio_db.MainActivity">
-
-    <TextView
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="데이터배이스 오픈"
+    android:id="@+id/DB_O"/>
+    <Button
+        android:layout_marginLeft="150dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="데이터배이스 삽입"
+        android:id="@+id/DB_I"/>
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="데이터배이스 조회"
+        android:id="@+id/DB_S"/>
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="데이터배이스 업데이트"
+        android:id="@+id/DB_U"/>
+    <Button
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="데이터배이스 삭제"
+        android:id="@+id/DB_D"/>
+
 </RelativeLayout>
